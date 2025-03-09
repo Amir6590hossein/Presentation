@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Differential Equations Exercises</title>
+
+    <!-- افزودن Reveal.js از طریق CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css" id="theme">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+
+    <!-- استایل‌های سفارشی -->
+    <style>
+        .small-text {
+            font-size: 0.6em; /* کوچک‌تر کردن اندازه فونت */
+        }
+        .rtl {
+            direction: rtl; /* راست‌چین کردن متن فارسی */
+            text-align: right;
+            font-family: 'XB Niloofar', Arial, sans-serif; /* فونت فارسی */
+        }
+        .ltr {
+            direction: ltr; /* چپ‌چین کردن متن انگلیسی */
+            text-align: left;
+        }
+        .correct {
+            color: green; /* رنگ سبز برای تیک */
+        }
+        .incorrect {
+            color: red; /* رنگ قرمز برای ضربدر */
+        }
+
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- اسلاید عنوان -->
+            <section>
+                <h1>Differential Equations Exercises</h1>
+                <p>Your Name</p>
+                <p>Your University</p>
+                <p>\today</p>
+            </section>
+
+            <!-- اسلاید تمرین ۱ -->
+            <section>
+                <h2>Exercise 1: Fill in the Blanks</h2>
+                <h3>Differential Equations</h3>
+                <p class="small-text">
+                    Each individual solution of a differential equation is called a 
+                    <span class="fragment" data-fragment-index="1">particular</span> solution. 
+                    A general 
+                    <span class="fragment" data-fragment-index="2">solution</span> 
+                    of an ordinary differential equation is a nonempty 
+                    <span class="fragment" data-fragment-index="3">set</span> 
+                    of solutions specified by an expression which contains at least one 
+                    <span class="fragment" data-fragment-index="4">parameter</span> 
+                    and which becomes a representation of a 
+                    <span class="fragment" data-fragment-index="5">particular</span> 
+                    solution when its parameters are all replaced by numbers. 
+                    A solution is said to be 
+                    <span class="fragment" data-fragment-index="6">relative</span> 
+                    to any given general solution if it does not belong to that solution set.
+                </p>
+            </section>
+
+            <!-- اسلاید تمرین ۲ -->
+            <section>
+                <h2>Exercise 2: True or False</h2>
+                <h3>Reading Lesson 6</h3>
+                <ol class="small-text">
+                    <!-- مورد اول -->
+                    <li class="rtl">
+                        <span class="fragment" data-fragment-index="1">□</span>
+                        <span class="fragment ltr" data-fragment-index="2">A partial differential equation is a special ordinary differential equation.</span>
+                        <span class="fragment rtl" data-fragment-index="3">(معنی فارسی: معادله دیفرانسیل جزئی یک معادله دیفرانسیل معمولی خاص است.)</span>
+                        <span class="fragment incorrect" data-fragment-index="4">✗</span> <!-- علامت ضربدر -->
+                    </li>
+                    <!-- مورد دوم -->
+                    <li class="rtl">
+                        <span class="fragment" data-fragment-index="5">□</span>
+                        <span class="fragment ltr" data-fragment-index="6">An initial value problem is a differential equation with an initial condition.</span>
+                        <span class="fragment rtl" data-fragment-index="7">(معنی فارسی: مسئله مقدار اولیه یک معادله دیفرانسیل با یک شرط اولیه است.)</span>
+                        <span class="fragment correct" data-fragment-index="8">✓</span> <!-- علامت تیک -->
+                    </li>
+                    <!-- مورد سوم -->
+                    <li class="rtl">
+                        <span class="fragment" data-fragment-index="9">□</span>
+                        <span class="fragment ltr" data-fragment-index="10">Three methods are discussed in lesson 6 for obtaining a particular solution for a second-order differential equation, once a homogeneous solution is known.</span>
+                        <span class="fragment rtl" data-fragment-index="11">(معنی فارسی: سه روش در درس ۶ برای به دست آوردن یک جواب خاص برای یک معادله دیفرانسیل مرتبه دوم، زمانی که جواب همگن شناخته شده است، بحث شده‌است.)</span>
+                        <span class="fragment correct" data-fragment-index="12">✓</span> <!-- علامت تیک -->
+                    </li>
+                    <!-- مورد چهارم -->
+                    <li class="rtl">
+                        <span class="fragment" data-fragment-index="13">□</span>
+                        <span class="fragment ltr" data-fragment-index="14">There is some information in lesson 6 regarding Bessel’s equation.</span>
+                        <span class="fragment rtl" data-fragment-index="15">(معنی فارسی: اطلاعاتی در درس ۶ در مورد معادله بسل وجود دارد.)</span>
+                        <span class="fragment incorrect" data-fragment-index="16">✗</span> <!-- علامت ضربدر -->
+                    </li>
+                </ol>
+            </section>
+
+
+               <!-- اسلاید سوال ۳ -->
+               <section>
+                <h2>Question 3</h2>
+                <p class="small-text ltr">
+                    The order of a differential equation is .....
+                </p>
+                <ol class="small-text ltr">
+                    <li class="fragment" data-fragment-index="1">□ a) the degree of the differential equation.</li>
+                    <li class="fragment" data-fragment-index="2">□ b) the order of the lowest derivative appearing in the equation.</li>
+                    <li class="fragment" data-fragment-index="3">□ c) the number of summands in the equation.</li>
+                    <li class="fragment" data-fragment-index="4">□ d) the order of the highest derivative appearing in the equation.</li>
+                </ol>
+                <p class="fragment rtl" data-fragment-index="5">
+                    (معنی فارسی: مرتبه یک معادله دیفرانسیل .... است.)
+                </p>
+                <p class="fragment correct" data-fragment-index="6">✓ پاسخ صحیح: d</p>
+            </section>
+
+            <!-- اسلاید سوال ۴ -->
+            <section>
+                <h2>Question 4</h2>
+                <p class="small-text ltr">
+                    If a differential equation is multiplied by an integrating factor the result would be an ...
+                </p>
+                <ol class="small-text ltr">
+                    <li class="fragment" data-fragment-index="1">□ a) exact equation.</li>
+                    <li class="fragment" data-fragment-index="2">□ b) homogeneous equation.</li>
+                    <li class="fragment" data-fragment-index="3">□ c) a differential equation of the lower degree.</li>
+                    <li class="fragment" data-fragment-index="4">□ d) a differential equation of the higher degree.</li>
+                </ol>
+                <p class="fragment rtl" data-fragment-index="5">
+                    (معنی فارسی: اگر یک معادله دیفرانسیل در یک عامل انتگرال‌گیر ضرب شود، نتیجه یک ... خواهد بود.)
+                </p>
+                <p class="fragment correct" data-fragment-index="6">✓ پاسخ صحیح: a</p>
+            </section>
+
+            <!-- اسلاید سوال ۵ -->
+            <section>
+                <h2>Question 5</h2>
+                <p class="small-text ltr">
+                    A second order linear differential equation has constant coefficients if
+                </p>
+                <ol class="small-text ltr">
+                    <li class="fragment" data-fragment-index="1">□ a) it can be easily converted to a first order differential equation.</li>
+                    <li class="fragment" data-fragment-index="2">□ b) its characteristic equation has constant coefficients.</li>
+                    <li class="fragment" data-fragment-index="3">□ c) the coefficients of the unknown function and its derivatives are constants.</li>
+                    <li class="fragment" data-fragment-index="4">□ d) its solution is a polynomial.</li>
+                </ol>
+                <p class="fragment rtl" data-fragment-index="5">
+                    (معنی فارسی: یک معادله دیفرانسیل خطی مرتبه دوم دارای ضرایب ثابت است اگر)
+                </p>
+                <p class="fragment correct" data-fragment-index="6">✓ پاسخ صحیح: c</p>
+            </section>
+
+
+ 
+            <section>
+                <h2>Question 6</h2>
+                <p class="small-text ltr">
+                    Translate the following text into Farsi:
+                </p>
+                <p class="small-text ltr">
+                    An expression of the form c<sub>1</sub>y<sub>1</sub> + c<sub>2</sub>y<sub>2</sub> + ... + c<sub>m</sub>y<sub>m</sub>, in which c<sub>1</sub>, c<sub>2</sub>, ..., c<sub>m</sub> are arbitrary constants, is called a linear combination of variables y<sub>1</sub>, y<sub>2</sub>, ..., y<sub>m</sub> because each term in the expression is linear, i.e., homogeneous of degree 1, in these m variables. One extremely important property of every homogeneous linear equation is that, if y<sub>1</sub> and y<sub>2</sub> are any particular solutions, then, for all values of the constants c<sub>1</sub> and c<sub>2</sub>, the linear combination c<sub>1</sub>y<sub>1</sub> + c<sub>2</sub>y<sub>2</sub> is also a solution.
+                </p>
+                <p class="fragment rtl small-text" data-fragment-index="1">
+                    (ترجمه فارسی: عبارت‌هایی به شکل c<sub>1</sub>y<sub>1</sub> + c<sub>2</sub>y<sub>2</sub> + ... + c<sub>m</sub>y<sub>m</sub> که در آن c<sub>1</sub>, c<sub>2</sub>, ..., c<sub>m</sub> ثابت‌های دلخواه هستند، ترکیب خطی متغیرهای y<sub>1</sub>, y<sub>2</sub>, ..., y<sub>m</sub> نامیده می‌شوند، زیرا هر جمله در این عبارت خطی است، یعنی همگن از درجه ۱ در این m متغیر. یکی از ویژگی‌های بسیار مهم هر معادله خطی همگن این است که اگر y<sub>1</sub> و y<sub>2</sub> هر دو جواب خاص باشند، آنگاه برای همه مقادیر ثابت‌های c<sub>1</sub> و c<sub>2</sub>، ترکیب خطی c<sub>1</sub>y<sub>1</sub> + c<sub>2</sub>y<sub>2</sub> نیز یک جواب است.)
+                </p>
+            </section>
+
+           
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- راه‌اندازی Reveal.js -->
+    <script>
+        Reveal.initialize({
+            controls: true, // نمایش دکمه‌های کنترل
+            progress: true, // نمایش نوار پیشرفت
+            center: true, // مرکز کردن اسلایدها
+            hash: true, // فعال کردن پشتیبانی از hash در URL
+            transition: 'slide', // نوع انتقال بین اسلایدها
+        });
+    </script>
+
+</body>
+</html>
